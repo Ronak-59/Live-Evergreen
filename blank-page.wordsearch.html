@@ -1,0 +1,253 @@
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <!-- Title -->
+        <title>Live Evergreen-games.sodoku</title>
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet">
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/nexus.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://bunkat.github.io/wordfind/example/styles/style.css">
+        <!-- Google Fonts-->
+        <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+         <div id="body-bg">
+            
+            <!-- Header -->
+            <div id="header">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html" title="">
+                                <img src="assets/img/logo.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Header -->
+            <!-- Top Menu -->
+            <div id="hornav" class="bottom-border-shadow">
+                <div class="container no-padding border-bottom">
+                    <div class="row">
+                        <div class="col-md-8 no-padding">
+                            <div class="visible-lg">
+                                <ul id="hornavmenu" class="nav navbar-nav">
+                                    <li>
+                                        <a href="index.html" class="fa-home active">Home</a>
+                                    </li>
+                                    <li>
+                                        <span class="fa-copy" aria-hidden="true">Newspaper</span>
+                                        <ul>
+                                            <li class="parent">
+                                                <span>English</span>
+                                                <ul>
+                                                    <li>
+                                                        <a href="http://epaperbeta.timesofindia.com/" target="_blank">Times Of India</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="http://epaper.dnaindia.com/" target="_blank">DNA </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="parent">
+                                                <span>Hindi</span>
+                                                <ul>
+                                                    <li>
+                                                        <a href="http://epaper.bhaskar.com/" target="_blank">Dainik Bhaskar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="http://epaper.jagran.com/" target="_blank">Jagran</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="parent">
+                                                <span>Marathi</span>
+                                                <ul>
+                                                    <li>
+                                                        <a href="http://epaper.lokmat.com/" target="_blank">Lokmat</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="http://epaper4.esakal.com/" target="_blank">Sakal</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="fa-copy"> Health</span>
+                                        <ul>
+                                            <li>
+                                                <a href="pages-full-width.jointpain.html">Joint Pain</a>
+                                            </li>
+                                            <li>
+                                                <a href="pages-full-width.bloodpressure.html">Blood Pressure</a>
+                                            </li>
+                                            <li>
+                                                <a href="pages-full-width.anemia.html">Anemia</a>
+                                            </li>
+                                            <li>
+                                                <a href="pages-full-width.diabetes.html">Diabetes</a>
+                                            </li>
+
+                                            
+                                                                                    </ul>
+                                    </li>
+                                    <li>
+                                        <span class="fa-th ">Entertainment</span>
+                                        <ul>
+                                            <li>
+                                                <a href="portfolio-games.html" target="_blank">Games</a>
+                                            </li>
+                                            <li>
+                                                <a href="portfolio-music.html" target="_blank">Music</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="#contact" class="fa-comment ">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 no-padding">
+                            <ul class="social-icons pull-right">
+                                <li class="social-rss">
+                                    <a href="#" target="_blank" title="RSS"></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href="#" target="_blank" title="Twitter"></a>
+                                </li>
+                                <li class="social-facebook">
+                                    <a href="#" target="_blank" title="Facebook"></a>
+                                </li>
+                                <li class="social-googleplus">
+                                    <a href="#" target="_blank" title="Google+"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<p style="margin-left: 250px;"> <b> Word-Search</b></p>
+<div id='puzzle'></div>
+<div id='words'></div>
+<div><button id='solve'>Solve Puzzle</button></div>
+
+<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+<script type="text/javascript" src="http://bunkat.github.io/wordfind/src/wordfind.js"></script> 
+<script type="text/javascript" src="http://bunkat.github.io/wordfind/example/scripts/wordfindgame.js"></script> 
+<script>
+
+  var words = ['cows', 'tracks', 'arrived', 'located', 'sir', 'seat',
+               'division', 'effect', 'underline', 'view', 'annual',
+               'anniversary', 'centennial', 'millennium', 'perennial',
+               'artisan', 'apprentice', 'meteorologist', 'blizzard', 'tornado',
+               'intensify','speed','count','consonant','someone',
+               'sail','rolled','bear','wonder','smiled','angle', 'absent',
+               'decadent', 'excellent', 'frequent', 'impatient', 'cell',
+               'cytoplasm', 'organelle', 'diffusion', 'osmosis',
+               'respiration'];
+
+  // start a word find game
+  var gamePuzzle = wordfindgame.create(words, '#puzzle', '#words');
+
+  $('#solve').click( function() {
+    wordfindgame.solve(gamePuzzle, words);
+  });
+
+  // create just a puzzle, without filling in the blanks and print to console
+  var puzzle = wordfind.newPuzzle(
+    words, 
+    {height: 18, width:18, fillBlanks: false}
+  );
+  wordfind.print(puzzle);
+
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+            <!-- === END CONTENT === -->
+ <!-- === BEGIN FOOTER === -->
+            <div id="base"; >
+                <div class="container bottom-border padding-vert-30">
+                    <div class="row">
+                        <!-- Disclaimer -->
+                        <div class="col-md-6">
+                            <h3 class="class margin-bottom-10">Description</h3>
+                            This site was developed as an outcome of a hackathon competition organised by KJSCE Abhiyantriki towards 'Solution that makes life simpler for the aged'. It aims to provide entertainment like reading newspaper, listening songs, playing games and even instant home remedies for the  most common diseases faced by the older people. This site helps to enhance the over-all interaction of the aged with the technology to make the most out of it.
+
+
+                         </div>
+                        <!-- End Disclaimer -->
+                        <!-- Contact Details -->
+                        <div style="margin-left: 175px;" class="col-md-3 margin-bottom-20 sanket" id="contact">
+                            <h3 class="margin-bottom-10">Contact Details</h3>
+                        
+                            <b>The Code Breakers</b>
+                                <br>D. J. Sanghvi College of Engineering :
+                                <br>-Ronak Doshi
+                                <br>-Krutik Menkudle
+                                <br>-Gaurav Kataria
+                                <br>-Ikbal Singh Dhanjal
+                                <br>-Sanket Dedhia
+                                <br>
+                        <span class="fa-envelope">Email:</span>
+                                <a href="mailto:thecoders97@gmail.com">thecoders97@gmail.com</a>
+                                
+
+                                
+                        </div>
+
+                        <!-- End Contact Details -->
+           
+            <!-- JS -->
+            <script type="text/javascript" src="assets/js/jquery.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="assets/js/scripts.js"></script>
+            <!-- Isotope - Portfolio Sorting -->
+            <script type="text/javascript" src="assets/js/jquery.isotope.js" type="text/javascript"></script>
+            <!-- Mobile Menu - Slicknav -->
+            <script type="text/javascript" src="assets/js/jquery.slicknav.js" type="text/javascript"></script>
+            <!-- Animate on Scroll-->
+            <script type="text/javascript" src="assets/js/jquery.visible.js" charset="utf-8"></script>
+            <!-- Sticky Div -->
+            <script type="text/javascript" src="assets/js/jquery.sticky.js" charset="utf-8"></script>
+            <!-- Slimbox2-->
+            <script type="text/javascript" src="assets/js/slimbox2.js" charset="utf-8"></script>
+            <!-- Modernizr -->
+            <script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+            <!-- End JS -->
+    </body>
+</html>
+<!-- === END FOOTER === -->
